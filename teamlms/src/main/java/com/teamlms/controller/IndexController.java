@@ -12,7 +12,7 @@ public class IndexController {
 
 	@RequestMapping("/")
 	public String indexView(Model model) {
-		log.info(">>>>> INDEX PAGE VIEW");
+		log.info(">>>>> GET: INDEX PAGE VIEW");
 		
 		return "index";
 	}
